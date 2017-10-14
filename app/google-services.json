@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "823251432686",
+    "firebase_url": "https://fir-home-5c3a1.firebaseio.com",
+    "project_id": "fir-home-5c3a1",
+    "storage_bucket": "fir-home-5c3a1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:823251432686:android:00bc6f6f3ae03708",
+        "android_client_info": {
+          "package_name": "com.example.admin.firebase_homework"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "823251432686-edbvhc25nv4juo9epvc64adcupecatps.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAVk4FPSZQyfMtVlAS9n8SPwmlqzbL0RI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
