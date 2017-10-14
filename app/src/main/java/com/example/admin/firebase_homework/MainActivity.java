@@ -49,9 +49,10 @@ public class MainActivity extends AppCompatActivity{
         SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(this);
         SharedPreferences.Editor editor = sharedPreferences.edit();
         if (sharedPreferences.getBoolean("FIRST_RUN", true)) {
-            addInitialDataToFirebase();;
+            
             editor.putBoolean("FIRST_RUN", false).commit();
         }
+        addInitialDataToFirebase();
         //read data from firebase
         Query myQuery = mDatabase.child("journalentris");
         myQuery.addValueEventListener(new ValueEventListener() {
